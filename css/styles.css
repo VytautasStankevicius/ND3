@@ -1,0 +1,139 @@
+*{
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pagetop {
+    background-color: #FFF2F3;
+    overflow: hidden;  
+}
+
+.header {
+    display:flex;
+    width: 1322px;
+    height: 91px;
+    max-width: 100%;
+    margin: 0 auto;   /*centruoja boxa*/
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    padding-right: 46px;
+    margin-left:136px;
+}
+
+.navbar {
+    display:flex;   /*sucentruoja child elementus*/
+    align-items: center;
+    flex: 1;
+    margin-left: 41px;
+}
+
+nav {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    word-spacing: 24px;
+}
+
+a {
+    text-decoration: none;
+    color:#000;
+}
+
+.user_actions {
+    display: flex;
+    align-items:center;
+    gap:45px;
+    padding-left: 240px;
+}
+
+.login_link {
+    color:#96BB7C;
+    word-spacing: 22px;
+}
+
+.user_actions button {
+    display: flex;
+    padding: 15px 25px;
+    align-items: center;
+    gap: 15px;
+    background-color: #96BB7C;
+    color:#fff;
+    border-color: #96BB7C;
+    border:none;
+    border-radius: 5px;
+}
+
+.column_left {
+    float:left;
+    width:50%;
+    margin-top: 152px;
+}
+
+.column_right{
+    float:right;
+    width: 50%;
+    height: 660px;
+    flex-shrink: 0;
+}
+
+.column_right img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.column_left h2 {
+    color: #96BB7C;
+    font-size:16px;
+    font-weight: 700;
+    line-height:24px;
+    letter-spacing: 0.1px;
+}
+
+.column_left h1 {
+    color:#000;
+    font-size:58px;
+    font-weight: 700;
+    line-height:80px;
+    letter-spacing: 0.2px;
+}
+
+.column_left p {
+    color:#737373;
+    font-size:20px;
+    font-weight: 400;
+    line-height:30px;
+    letter-spacing: 0.2px;
+    width: 338px;
+}
+
+.column_left .learnmore {
+    background-color: transparent ;
+    color:#96BB7C;
+    border: 1px solid;
+}
+
+.column_left button{
+    padding: 15px 25px;
+    background-color: #96BB7C;
+    color:#fff;
+    border-color: #96BB7C;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.column_left_box {
+    width:573px;
+    float:right;
+
+}
